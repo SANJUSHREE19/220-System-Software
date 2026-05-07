@@ -126,27 +126,6 @@ All registers are **16-bit**.
 
 ---
 
-## Supported Instructions
-
-| Instruction | Description        |
-| ----------- | ------------------ |
-| LOADI       | Load immediate     |
-| LOAD        | Load from memory   |
-| STORE       | Store to memory    |
-| ADD         | Addition           |
-| ADDI        | Add immediate      |
-| PUSH        | Push to stack      |
-| POP         | Pop from stack     |
-| CALL        | Function call      |
-| RET         | Return             |
-| CMP         | Compare            |
-| JUMP        | Unconditional jump |
-| JUMPEQ      | Jump if zero       |
-| MULT        | Multiply           |
-| HALT        | Stop execution     |
-
----
-
 ## Flags
 
 * **Z (Zero):** Set if result = 0
