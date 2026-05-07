@@ -71,22 +71,6 @@ Shows:
 
 # 🧾 Expected Output
 
-### Hello World
-
-```text
-Hello World!
-```
-
----
-
-### Fibonacci (N = 7)
-
-```text
-R4 = 0x000D → 13
-```
-
----
-
 ### Factorial (5!)
 
 ```text
