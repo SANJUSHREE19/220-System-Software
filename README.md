@@ -103,6 +103,26 @@ All registers are **16-bit**.
 ```
 | OPCODE | RD | RS1 | RS2 / IMM |
 ```
+---
+
+## 📊 Opcode Table
+
+| Instruction        | Opcode (Hex) | Format | Description                        |
+| ------------------ | ------------ | ------ | ---------------------------------- |
+| LOADI rD, #imm8    | 0x1          | I8     | Load immediate value into register |
+| LOAD rD, [rA]      | 0x2          | R/M    | Load from memory                   |
+| STORE rS, [rA]     | 0x3          | R/M    | Store to memory                    |
+| ADD rD, rS1, rS2   | 0x4          | R      | Add two registers                  |
+| ADDI rD, rS, #imm4 | 0x5          | I4     | Add immediate                      |
+| PUSH rS            | 0x6          | R      | Push to stack                      |
+| POP rD             | 0x7          | R      | Pop from stack                     |
+| CALL label         | 0x8          | J12    | Call function                      |
+| JUMP label         | 0x9          | J12    | Unconditional jump                 |
+| CMP rA, rB         | 0xA          | R      | Compare values                     |
+| JUMPEQ label       | 0xB          | J12    | Jump if equal (Z=1)                |
+| RET                | 0xC          | —      | Return from function               |
+| MULT rD, rS1, rS2  | 0xD          | R      | Multiply                           |
+| HALT               | 0xF          | —      | Stop execution                     |
 
 ---
 
