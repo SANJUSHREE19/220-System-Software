@@ -176,31 +176,7 @@ docs/       → diagrams and report
 
 # 🧪 Example Programs
 
----
-
-## 1️⃣ Hello World
-
-Prints characters using **memory-mapped I/O**.
-
----
-
-## 2️⃣ Fibonacci
-
-Computes Fibonacci sequence iteratively.
-
-```
-F(7) = 13
-```
-
-Final registers:
-
-```
-R4 = 0x000D
-```
-
----
-
-## 3️⃣ Factorial (Recursive)
+## Factorial (Recursive)
 
 ### Assembly Code
 
